@@ -1,0 +1,125 @@
+/* Basic Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0e6ef;;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .gratitude-page {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #f0e6ef;
+  }
+  
+  h1 {
+    text-align: center;
+    color: black;
+  }
+  
+  .gratitude-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .entry-container {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+  }
+  
+  .gratitude-form textarea {
+    width: 100%;
+    resize: none;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .gratitude-form input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  .gratitude-form button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .gratitude-form button:hover {
+    background-color: grey;
+  }
+  
+  .entries {
+    margin-top: 20px;
+  }
+  
+  .entry {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+  
+  .entry p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .media {
+    max-width: 100%;
+    max-height: 400px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+  }
+  
+  .media:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Modal Styles */
+  .modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .modal-content p {
+    font-size: 18px;
+    color: #0056b3;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  

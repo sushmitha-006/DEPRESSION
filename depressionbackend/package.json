@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@zegocloud/zego-uikit-prebuilt": "^2.6.1",
+    "axios": "^1.7.2",
+    "firebase": "^10.12.2",
+    "react-router-dom": "^6.25.1"
+  }
+}

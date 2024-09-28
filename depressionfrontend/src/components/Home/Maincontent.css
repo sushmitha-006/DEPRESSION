@@ -1,0 +1,25 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh; 
+  width:50%; 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  width: 100%;
+    background-image: url("https://i.pinimg.com/736x/40/1b/e1/401be19115aefd10f7c7f9c51036e94c.jpg");
+}
+
+.main-content h1 {
+  font-size: 3rem; 
+  color:#231942; 
+
+}
+.main-content p {
+  font-size: 1.5rem; 
+  color:black; 
+
+}

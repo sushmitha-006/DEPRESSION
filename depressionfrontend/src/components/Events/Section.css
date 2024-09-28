@@ -1,0 +1,60 @@
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.activities-container {
+  overflow-x: auto;
+}
+
+.activities {
+  display: flex;
+}
+
+.activity {
+  flex: 0 0 auto;
+  width: 300px; /* Adjust as needed */
+  background-color: #f0e6ef;;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.activity:hover {
+  transform: scale(1.05);
+}
+
+.activity-image {
+  width: 100%;
+  height: 200px; /* Adjust as needed */
+  object-fit: cover;
+}
+
+.activity-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.activity h3 {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.activity button {
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.activity button:hover {
+  background-color: grey;
+}

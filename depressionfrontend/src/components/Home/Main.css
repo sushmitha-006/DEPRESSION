@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  
+  }
+  
+  .body-container {
+    display: flex;
+  }
+  
+  .main-content {
+    padding: 20px;
+    background: #f0f0f0;
+  }

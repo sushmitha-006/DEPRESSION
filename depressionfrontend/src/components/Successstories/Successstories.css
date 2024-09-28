@@ -1,0 +1,74 @@
+/* src/SuccessfulStories.css */
+.successful-stories {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0e6ef;;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  color:rgb(10, 10, 49);
+}
+
+.tagline {
+  font-style: italic;
+  color: rgb(84, 92, 151);
+  margin-bottom: 20px;
+}
+
+.stories-list {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.story-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items at the top */
+  padding: 15px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-color: #fff; /* White background for each row */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.story-row:hover {
+  background-color: #f0f0f0; /* Light gray background on hover */
+}
+
+.story-info {
+  flex: 1;
+}
+
+.story-info h2 {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.story-info p {
+  color: #666;
+  margin: 5px 0;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.read-more-btn {
+  padding: 8px 16px;
+  background-color:#0056b3;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background-color: #0056b3;
+}

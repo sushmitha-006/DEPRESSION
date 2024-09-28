@@ -1,0 +1,38 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  .login-content {
+    text-align: center;
+    background-color: #fff; /* White background for the login box */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    width: 300px;
+  }
+  
+  .login-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray text color */
+  }
+  
+  .login-with-google-btn {
+    background-color: #4285f4; /* Google Blue */
+    color: #fff; /* White text */
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-with-google-btn:hover {
+    background-color: #357ae8; /* Darker shade of Google Blue on hover */
+  }
+  

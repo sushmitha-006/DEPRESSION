@@ -1,0 +1,30 @@
+/* Zoom.css */
+.zoom-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .zoom-container input,
+  .zoom-container button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .zoom-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .zoom-container button:hover {
+    background-color: #0056b3;
+  }
+  

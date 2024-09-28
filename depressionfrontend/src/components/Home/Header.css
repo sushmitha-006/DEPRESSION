@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #231942;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-right span {
+  margin: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header-right span:hover {
+  text-decoration: underline;
+}
+
+
+/*.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1b263b;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-right span {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.header-right span:hover {
+  text-decoration: underline;
+}
+*/
